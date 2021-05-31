@@ -1,0 +1,57 @@
+.popup-open{
+	margin-right: 30px;
+}
+.popup-open , .popup-open-reg , .popup-open-lot , .popup-open-buy{
+	text-decoration: none;
+	/*color: black;*/
+}
+.popup-fade , .popup-fade-reg , .popup-fade-lot , .popup-fade-buy{
+	display: none;
+
+}
+.popup-fade:before , .popup-fade-reg:before , .popup-fade-lot:before , .popup-fade-buy:before{
+	content: '';
+	backdrop-filter: blur(10px);
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	/*opacity: 0.7;*/
+	z-index: 9999;
+}
+.popup , .popup-reg , .popup-lot , .popup-buy{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popup form input{
+	margin: 5px 0;
+}
+.popup-reg form input{
+	margin: 5px 0;	
+}
+.popup-lot form input{
+	margin: 5px 0;
+}
+.popup-buy form input{
+	margin: 5px 0;
+}
+.popup , .popup-reg , .popup-lot , .popup-buy {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	padding: 20px;
+	width: 360px;
+	margin-left: -200px;	
+	background: #fff;
+	border: 1px solid #929292;;
+	border-radius: 4px; 
+	z-index: 99999;
+	opacity: 1;	
+}
+.popup-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}

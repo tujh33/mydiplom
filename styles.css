@@ -1,0 +1,211 @@
+html , body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.game_prev{
+	position: relative;
+	display: flex;
+	/*width: 230px;*/
+	background: white;
+	border-radius: 5px;
+	margin-right: 25px;
+}
+.gp_link{
+	position: absolute;
+	width: 230px;
+	height: 112px;
+	/*height: auto;*/
+	/*background: red;*/
+}
+.gp_link a{
+	display: block;
+	/*background: red;*/
+	height: 100%;
+	width: 100%;
+}
+
+.game_prev_logo{
+	display: flex;
+	align-self: center;
+	padding: 6px;
+}
+.game_prev_logo img{
+	max-width: 100px;
+	max-height: 100px;
+}
+.game_prev_name{
+	align-self: center;
+	padding:0 10px;
+	font-size: 25px;
+}
+.game_tb{
+	display:flex;
+}
+
+.game_type{
+	background: red;
+}
+.game_type__inner_elements_el{
+	display: flex;
+	justify-content: space-between;
+}
+.game_type__inner_elements_el .el_name{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	background: white;
+	border-radius: 5px;
+	max-width: 230px;
+    width: 100%;
+    height: 112px;
+    font-size: 26px;
+}
+.game_choice{
+	font-size: 20px;
+	margin: 0 6px;
+	border-top: 1px solid #ececec;
+}
+.block_posts_elements{
+	max-width: 75%;
+    width: 100%;
+    margin-left: auto;
+}
+.block_posts_elements_el{
+	background: white;
+	border-radius: 5px;
+	display: flex;
+	padding: 20px;
+	margin-bottom: 14px;
+}
+.el_avatar img{
+	border-radius: 50%;
+	width: 65px;
+	height: 65px;
+    object-fit: cover;
+}
+.user_block{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin-right: 20px;*/
+}
+.product_block{
+	display: flex;
+    width: 100%;
+    justify-content: space-around;
+     word-wrap: break-word;
+    align-content: center;
+}
+.el_game , .el_desc , .el_type {
+	margin-left: 15px;
+	width: 100%;
+	max-height: 150px;
+	overflow-y: hidden;
+}
+.el_game{
+	width: 100px;
+}
+.el_desc{
+	width: 100px;
+}
+.el_price{
+	margin: 0 15px;
+	width: 100px;   
+}
+.el_type{
+	width: 100px;
+}
+.gm , .dsc , .typ , .prc{
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.button_block{
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+}
+button{
+	width: 180px;
+    height: 35px;
+    border-radius: 13px;
+    border-color: white;
+    border-style: none;
+    background:#6353bf;
+    color: white;
+    letter-spacing: 1px;
+    transition: all .5s;
+}
+button:hover{
+	cursor: pointer;
+	background: white;
+	border:1px solid #6353bf;
+	color: #6353bf;
+}
+.panel_search__inner_elements select{
+	margin-right: 30px;
+}
+select , input{
+	width: 180px;
+    height: 35px;
+    border-radius: 13px;
+    
+    border-width: thin; 
+
+}
+
+
+input[type="text"]{
+/*	padding:0px;
+	padding-left: 1px;*/
+	max-width: 180px;
+    height: 35px;
+}
+/*input:focus , input:active , input:after , input:before{
+	border-style: none;
+	border-image: none;
+	border-color: none;
+}*/
+
+.button_el button:nth-child(1){
+	margin-bottom: 10px;
+}
+.block_posts_elements_el , .button_el button , .game_prev , .left_aside_block{
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.chng_game{
+	font-size: 27px;
+    font-weight: 400;
+}
+.user_menu_name{
+	color: #6353bf;
+	margin-left: auto;
+	border-bottom: 1px solid;
+	margin:0 10px;
+}
+.block_posts{
+	display: flex;
+    flex-direction: row-reverse;
+    margin-top: 14px;
+}
+
+.left_aside_block{
+	    background: white;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 5px;
+}
+.left_aside_block__inner_el{
+	    margin: 14px 0;
+}
+
+#panel_button{
+
+}
+.warning{
+	padding: 20px;
+}
